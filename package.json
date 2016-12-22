@@ -7,7 +7,24 @@
     "pretty-bytes": "^2.0.1"
   },
   "devDependencies": {
-    "electron-prebuilt": "^0.35.2"
+    "body-parser": "^1.15.2",
+    "browser-sync": "^2.18.5",
+    "cors": "^2.8.1",
+    "electron-connect": "^0.6.1",
+    "electron": "^1.4.7",
+    "electron-builder": "^8.6.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.7"
   },
   "scripts": {
     "start": "electron main.js"
